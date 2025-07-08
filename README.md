@@ -54,13 +54,9 @@ A multiplayer location guessing game where players compete to identify NYC MTA t
 
 3. **Set up environment variables**
    ```bash
-   cp .env.example .env
+   cp .env.local.example .env.local
    ```
-   Fill in your Supabase credentials in the `.env` file:
-   ```
-   VITE_SUPABASE_URL=your_supabase_url
-   VITE_SUPABASE_ANON_KEY=your_supabase_anon_key
-   ```
+   Fill in your credentials in the `.env` file
 
 4. **Start the development server**
    ```bash
